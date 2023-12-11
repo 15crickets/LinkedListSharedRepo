@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstring>
-#include "Node.h"
+#include "node.h"
 #include "student.h"
 
 //constructor, in which the student is set.
