@@ -6,19 +6,19 @@
 
 using namespace std;
 
-class node{
+class Node{
 
  public:
  //declaring functions
-  node* getNext();
-  void setNext(node* nextNode);
+  Node* getNext();
+  void setNext(Node* nextNode);
   student* getStudent();
-  node(student* currentStudent);
-  ~node();
+  Node(student* currentStudent);
+  ~Node();
  private:
  //creating variables
-  node* next;
-  student* stu;
+  Node* next;
+  Student* stu;
   
 
 
